@@ -1,0 +1,28 @@
+{
+  "name": "friend-list-application",
+  "main": "server.js",
+  "dependencies": {
+    "bcrypt-nodejs": "latest",
+    "body-parser": "latest",
+    "connect-flash": "latest",
+    "cookie-parser": "latest",
+    "ejs": "latest",
+    "express": "latest",
+    "express-session": "latest",
+    "jsonwebtoken": "latest",
+    "method-override": "latest",
+    "mongoose": "latest",
+    "morgan": "latest",
+    "nodemailer": "latest",
+    "passport": "latest",
+    "passport-facebook": "latest",
+    "passport-google-oauth": "latest",
+    "passport-local": "latest"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "0.12.x"
+  }
+}
