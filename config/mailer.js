@@ -4,8 +4,8 @@ var nodemailer = require('nodemailer');
 var transporter = nodemailer.createTransport({
     service: 'yahoo',
     auth: {
-      user: 'placeholder0101@yahoo.com',
-      pass: 'holdthatplace'
+      user: yourusername,
+      pass: yourpassword
     }
   });
 
